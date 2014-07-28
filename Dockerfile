@@ -1,5 +1,5 @@
-FROM ubuntu:quantal
-MAINTAINER Lucas Carlson <lucas@rufy.com>
+FROM ubuntu:trusty
+MAINTAINER Maikel Vlasman <crobays@userex.nl>
 
 # Let's get haproxy
 RUN apt-get update -q
